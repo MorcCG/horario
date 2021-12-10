@@ -1,0 +1,13 @@
+input[type=text]{
+    border:none;
+}
+
+.titulo,
+.hora
+{
+    background-color: rgb(99, 168, 201) !important;
+}
+
+td{
+    background-color: rgb(151, 211, 204) !important;
+}
