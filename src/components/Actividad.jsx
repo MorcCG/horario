@@ -2,7 +2,7 @@ import React, {useState} from 'react';
 import './Estilo.css';
 
 
-export default function Actividad() {
+ let Actividad = () => {
   const [value, setValue] = useState('');
   const onChange = (event) => {
     setValue(event.target.value);
@@ -14,7 +14,7 @@ export default function Actividad() {
   );
 }
 
-
+export default Actividad;
 
 
 

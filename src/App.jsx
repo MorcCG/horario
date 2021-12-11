@@ -4,7 +4,7 @@ import Actividad from './components/Actividad';
 
 const KEY ="tareaApp"
 
-export function App() {
+export let App= () => {
 
   useEffect(() => {localStorage.setItem(KEY, JSON.stringify[<Actividad/>])
 },);

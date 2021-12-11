@@ -1,13 +1,15 @@
 input[type=text]{
-    border:none;
+    border-color:rgb(185, 212, 209);
+    background-color: rgb(185, 212, 209);
 }
 
 .titulo,
-.hora
+.hora,
+.hora1
 {
-    background-color: rgb(10, 144, 206) !important;
+    background-color: rgb(44, 170, 228) !important;
 }
 
 td{
-    background-color: rgb(151, 211, 204) !important;
+    background-color: rgb(185, 212, 209) !important;
 }
